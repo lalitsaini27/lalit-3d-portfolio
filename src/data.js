@@ -51,8 +51,8 @@ export const projects = [
     description:
       "Canvas based Flappy Bird game with scoring and sound effects.",
     tech: ["HTML", "CSS", "JavaScript"],
-    live: "#",
-    github: "https://github.com/lalitsaini27/games-project",
+    live: "https://funny-flapy-bird.netlify.app/",
+    github: "https://github.com/lalitsaini27/flappy-bird-game",
   },
 ];
 
