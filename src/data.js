@@ -42,8 +42,8 @@ export const projects = [
     description:
       "Modern portfolio with 3D effects, animations and glassmorphism design.",
     tech: ["React", "Framer Motion"],
-    live: "#",
-    github: "#",
+    live: "https://lalit-portfolio-3d.netlify.app/",
+    github: "https://github.com/lalitsaini27/lalit-3d-portfolio",
   },
   {
     title: "Flappy Bird Game",
@@ -52,7 +52,7 @@ export const projects = [
       "Canvas based Flappy Bird game with scoring and sound effects.",
     tech: ["HTML", "CSS", "JavaScript"],
     live: "#",
-    github: "#",
+    github: "https://github.com/lalitsaini27/games-project",
   },
 ];
 
