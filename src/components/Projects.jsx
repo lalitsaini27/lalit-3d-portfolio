@@ -45,8 +45,12 @@ function Projects() {
             </div>
 
             <div className="project-links">
-              <a href={project.live}>Live Demo</a>
-              <a href={project.github}>GitHub</a>
+              {project.live && (
+                <a href={project.live} target="_blank" rel="noreferrer">Live Demo</a>
+              )}
+              {project.github && (
+                <a href={project.github} target="_blank" rel="noreferrer">GitHub</a>
+              )}
             </div>
           </motion.article>
         ))}

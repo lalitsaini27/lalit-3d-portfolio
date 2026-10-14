@@ -20,39 +20,75 @@ export const skills = [
 export const projects = [
   {
     title: "Glow Beauty Parlour Website",
-    image: "https://picsum.photos/600/400?random=1",
+    image: "/project-images/glow-beauty-parlour.jpg",
     description:
-      "A full-stack beauty parlour website with appointment booking and service management.",
+      "A beauty parlour website for showcasing salon services and helping customers explore beauty treatments and appointments.",
     tech: ["React", "Django", "MySQL"],
-    live: "#",
-    github: "#",
+    live: "",
+    github: "",
   },
   {
     title: "Smart Study Portal",
-    image: "https://picsum.photos/600/400?random=2",
+    image: "/project-images/smart-study-portal.jpg",
     description:
-      "Student learning portal with authentication, notes and course management.",
+      "A student learning portal concept for organizing learning resources, notes and study activities in one place.",
     tech: ["React", "Django", "MySQL"],
-    live: "#",
-    github: "#",
+    live: "",
+    github: "",
   },
   {
     title: "3D Portfolio Website",
-    image: "https://picsum.photos/600/400?random=3",
+    image: "/project-images/3d-portfolio.jpg",
     description:
-      "Modern portfolio with 3D effects, animations and glassmorphism design.",
-    tech: ["React", "Framer Motion"],
+      "A personal developer portfolio featuring 3D-inspired visuals, animated sections, interactive cards and a modern dark interface.",
+    tech: ["React", "Vite", "Framer Motion", "Vanilla Tilt"],
     live: "https://lalit-portfolio-3d.netlify.app/",
     github: "https://github.com/lalitsaini27/lalit-3d-portfolio",
   },
   {
     title: "Flappy Bird Game",
-    image: "https://picsum.photos/600/400?random=4",
+    image: "/project-images/flappy-bird-game.jpg",
     description:
-      "Canvas based Flappy Bird game with scoring and sound effects.",
+      "A lightweight browser arcade game inspired by Flappy Bird, with keyboard or tap-based play and score-focused gameplay.",
     tech: ["HTML", "CSS", "JavaScript"],
     live: "https://funny-flapy-bird.netlify.app/",
     github: "https://github.com/lalitsaini27/flappy-bird-game",
+  },
+  {
+    title: "DevVault",
+    image: "/project-images/devvault.jpg",
+    description:
+      "A browser-based developer command center to organize projects, milestones, deployments, API notes, issues and technical documentation.",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    live: "https://devvault-01.netlify.app/",
+    github: "",
+  },
+  {
+    title: "Finora",
+    image: "/project-images/finora.jpg",
+    description:
+      "A personal finance dashboard for tracking income, expenses, transactions, category budgets and financial trends with locally saved data.",
+    tech: ["HTML5", "CSS3", "JavaScript", "SVG Charts", "LocalStorage"],
+    live: "https://finora-1.netlify.app/",
+    github: "",
+  },
+  {
+    title: "SK Burger Website",
+    image: "/project-images/sk-burger.jpg",
+    description:
+      "A responsive restaurant website with food categories, menu browsing, cart interactions, WhatsApp ordering and table reservation options.",
+    tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap 5", "AOS", "Swiper"],
+    live: "https://sk-burger-1.netlify.app/",
+    github: "",
+  },
+  {
+    title: "Beauty Glow Salon",
+    image: "/project-images/beauty-glow-salon.jpg",
+    description:
+      "A responsive salon website showcasing beauty services, pricing and gallery sections, with appointment enquiries through WhatsApp.",
+    tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap 5", "AOS", "Swiper"],
+    live: "https://beauty-club-salon.netlify.app/",
+    github: "",
   },
 ];
 
